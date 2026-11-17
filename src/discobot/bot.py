@@ -1,5 +1,6 @@
 """discord.py adapter. Imported lazily so the package installs without a token."""
 from __future__ import annotations
+
 import os
 
 from .commands import Router, build_welcome, make_poll, parse_purge_amount

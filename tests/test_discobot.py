@@ -1,5 +1,6 @@
 import pytest
-from discobot.commands import build_welcome, make_poll, parse_purge_amount, Router
+
+from discobot.commands import Router, build_welcome, make_poll, parse_purge_amount
 from discobot.moderation import WordFilter
 
 

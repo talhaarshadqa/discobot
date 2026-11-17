@@ -1,7 +1,8 @@
 """Command logic, kept free of any Discord import so it can be unit-tested."""
 from __future__ import annotations
+
+from collections.abc import Callable
 from dataclasses import dataclass
-from typing import Callable
 
 NUMBER_EMOJI = ["1⃣", "2⃣", "3⃣", "4⃣", "5⃣",
                 "6⃣", "7⃣", "8⃣", "9⃣", "\U0001F51F"]

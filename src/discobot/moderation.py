@@ -1,5 +1,6 @@
 """A simple word filter for moderation."""
 from __future__ import annotations
+
 import re
 
 
